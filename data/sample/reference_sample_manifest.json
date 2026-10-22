@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "selection_unit": "pixel_id (location), not pixel-month row",
+  "selection_rule": "SHA-256 rank of UTF-8 text 'greening-predictive-v1:<pixel_id>'; take the 5,000 lowest hashes",
+  "sample_pixels": 5000,
+  "months": 141,
+  "rows": 705000,
+  "columns": [
+    "pixel_id",
+    "year",
+    "month",
+    "ndvi",
+    "lst",
+    "lon",
+    "lat"
+  ],
+  "date_range": {
+    "start": "2013-04",
+    "end": "2024-12"
+  },
+  "sorted_by": [
+    "pixel_id",
+    "year",
+    "month"
+  ],
+  "sample_pixel_id_sha256": "8e7a3fbacc7608244516e2f9ee029357ac4c8fa73f8ea9349137e5ac62ac7002",
+  "sample_pixel_id_sum": 15765587896,
+  "pixels_eligible_through_2021": 4317,
+  "missingness": {
+    "ndvi_null_rows": 5676,
+    "lst_null_rows": 40625,
+    "both_observed_rows": 661945
+  },
+  "reference_file_sha256": "23c5fe1df6a926ed5247b4ac931c552ebc0e36bf1e0fa2608b46747c93c9faa7",
+  "reference_file_bytes": 4486628
+}

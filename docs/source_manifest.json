@@ -1,0 +1,77 @@
+{
+  "version": "1.0",
+  "risk_set": {
+    "definition": "NDVI > 0.2 in at least 3 months over April 2013 through December 2024",
+    "interpretation": "retrospective historical vegetation-support universe",
+    "pixels": 461695,
+    "months": 141,
+    "pixel_month_rows": 65098995
+  },
+  "files": [
+    {
+      "name": "evergreen_locations.parquet",
+      "bytes": 1286292,
+      "sha256": "ad39cf4eef2623e73de98056b4770bb3c9ee00eb806df5a6367351b2ce0185c1"
+    },
+    {
+      "name": "evergreen_monthly_2013.parquet",
+      "bytes": 22414866,
+      "sha256": "afdac0c9796fe5605ec6724f13612b56cfffa7927644f8e2b06cb8ea430d8028"
+    },
+    {
+      "name": "evergreen_monthly_2014.parquet",
+      "bytes": 32690957,
+      "sha256": "a7b58b4b47197f660c3d4205c109020ac34a15f9c4a4ef104b501940b201e272"
+    },
+    {
+      "name": "evergreen_monthly_2015.parquet",
+      "bytes": 33011707,
+      "sha256": "b4262515baa26ec734bfa90443c05f93b29e24fd62548bc83f844ac403a6035a"
+    },
+    {
+      "name": "evergreen_monthly_2016.parquet",
+      "bytes": 32933313,
+      "sha256": "ab5cf4ed8884192db83ec3508605882f9d7d51f8aa9e7606bfe20b1c378ab20c"
+    },
+    {
+      "name": "evergreen_monthly_2017.parquet",
+      "bytes": 32746221,
+      "sha256": "c9ffc745ce600d24c1c353682ba3f538aae3aa88d861dcfbdf253401e4d972ee"
+    },
+    {
+      "name": "evergreen_monthly_2018.parquet",
+      "bytes": 33051022,
+      "sha256": "e670e47288330d5e03028b1c2c6f57efe92e518cb65611b997414abba654b35a"
+    },
+    {
+      "name": "evergreen_monthly_2019.parquet",
+      "bytes": 32919928,
+      "sha256": "3088458fa7d7f13dbe57649c7a6cff1227194b73d75bd901749d270da6873f45"
+    },
+    {
+      "name": "evergreen_monthly_2020.parquet",
+      "bytes": 32247785,
+      "sha256": "68d1652743548ebb94cfc5c6a3f190b654e6de1509563ceb2cf68890b319e321"
+    },
+    {
+      "name": "evergreen_monthly_2021.parquet",
+      "bytes": 32604868,
+      "sha256": "3b39bc7d4e67a904897ffa759ec94c12c77fc3b40ae56155fa0c9c3f03004e36"
+    },
+    {
+      "name": "evergreen_monthly_2022.parquet",
+      "bytes": 31726723,
+      "sha256": "cb234c5c956abab1c353febb654f6659036c633e21623f20e30ceac092ae6c9c"
+    },
+    {
+      "name": "evergreen_monthly_2023.parquet",
+      "bytes": 32136269,
+      "sha256": "42d19619819694135f1195af229c7382bb4debf2ef36793f8bed616826c151c0"
+    },
+    {
+      "name": "evergreen_monthly_2024.parquet",
+      "bytes": 32928990,
+      "sha256": "7402c0afe30f65c9ed53b762a7f5878ab53d14a1172f5af78bb129bb922215ac"
+    }
+  ]
+}
